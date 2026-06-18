@@ -1,0 +1,14 @@
+{
+  "name": "c5",
+  "version": "1.0.0",
+  "description": "Браузерный калькулятор",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "vitest": "^3.2.4"
+  }
+}
